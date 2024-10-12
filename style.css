@@ -1,0 +1,47 @@
+.container{
+    max-width: 851px;
+    margin: 0 auto;
+}
+
+.header{
+    padding: 54px 0 47px 0;
+    border-bottom: 2px solid #D9D9D9;
+}
+
+.header-logo{
+    font-family: Oswald,  sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.hero{
+    padding: 191px 0 99px;
+}
+
+.hero-title{
+    font-size: 96px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.hero-title span{
+    color: #00ADB5;
+}
+
+.hero-button{
+    margin-bottom: 24px;
+    padding: 10px 32px;
+    border: transparent;
+    border-radius: 24px;
+    background-color: #393E46;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.hero-button:hover{
+    background-color: #00ADB5;
+}
+
+.hero-item:(:last-child){
+    margin-bottom: 24px;
+}
